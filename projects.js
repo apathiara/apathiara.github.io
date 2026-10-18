@@ -4,9 +4,9 @@
 const SITE = {
   showreelId: "", // e.g. "123456789"
   showreelHash: "",
-  email: "YOUR_EMAIL@example.com",
-  vimeoUrl: "https://vimeo.com/",
-  linkedinUrl: "https://www.linkedin.com/"
+  email: "apathiara@gmail.com",
+  vimeoUrl: "https://vimeo.com/user197682004",
+  linkedinUrl: "https://www.linkedin.com/in/aman-pathiara"
 };
 const PROJECTS = [
   {title:"Dish",category:"Long-form / Social / Editing",description:"Long-form episodes, trailers and social-first edits for the Waitrose entertainment podcast.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Dish project thumbnail",link:""},
