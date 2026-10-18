@@ -23,3 +23,11 @@ const ARCHIVE = [
   // {title:"Project title",category:"Social",year:"2026",description:"Your role and the brief.",vimeoId:"123456789",vimeoHash:"",image:"images/project.jpg"}
 ];
 const ARCHIVE_CATEGORIES = ["All","Long-form","Social","Production","Events","Other"];
+
+// Four supplied YouTube podcast links. Descriptive titles/roles can be added after review.
+const PODCASTS = [
+ {title:"Angela Scanlon’s “Filthy” Air Fryer Habit | Dish Podcast | Waitrose",category:"Dish / Waitrose",description:"Full episode edit.",youtubeId:"hFobYZPAJ6U",image:""},
+ {title:"Jesse Burgess Talks Michelin Stars Over Lemon Chicken | Dish Podcast | Waitrose",category:"Dish / Waitrose",description:"Full episode edit.",youtubeId:"81fr6vwHXIA",image:""},
+ {title:"SOAS Global Developments — Work in the Age of Digital Capitalism",category:"SOAS Global Developments",description:"End-to-end production and post-production.",youtubeId:"lCvfH1fsnVU",image:""},
+ {title:"SOAS Global Developments — Oil Frontiers: A Conversation with Adam Hanieh",category:"SOAS Global Developments",description:"End-to-end production and post-production.",youtubeId:"tZ2FFXrvwXY",image:""}
+];

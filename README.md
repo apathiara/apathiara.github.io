@@ -23,3 +23,11 @@ Open `index.html` in a browser. For a closer-to-live preview, open this folder i
 - This is a working starter site with placeholder video IDs, contact address, links and thumbnail artwork; update these before sharing publicly.
 - Google Fonts are loaded externally. For a fully self-contained site, switch to system fonts in `style.css`.
 - GitHub Pages is public hosting, not suitable for private assets or secrets.
+
+## Version 3 additions
+- Dedicated Podcasts section: edit `PODCASTS` in `projects.js`.
+- HEIST 2026 Gold recognition, linked to the official awards page and attributed to the SOAS team campaign.
+- YouTube and Instagram embedding are not yet implemented; current players support Vimeo IDs only.
+
+## Podcast embeds (V4)
+The four user-supplied YouTube URLs are configured in `PODCASTS` in `projects.js`. Replace temporary titles, descriptions and production credits once confirmed. The site uses YouTube privacy-enhanced iframe embeds. YouTube owners can disable embedding. To update the live site, upload the changed `projects.js` and `script.js` to the repository root and commit (or upload all V4 files, replacing existing files).
