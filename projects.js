@@ -14,7 +14,7 @@ const PROJECTS = [
   {title:"SOAS",category:"Video lead / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg?v=2",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
   {title:"Royal College of Art",category:"Freelance editor / Showreels",description:"Yearly showreels and trailers for the MA Interior Design’s superFUTURES and superMATTER studios, crafted from student-submitted films.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2163434321-71fa1db0e9292322230020bc87413249694510016a0b05518e2003392d773f4a-d_1280",imageAlt:"Still from the superFUTURES Nature’s Depot showreel",link:"rca.html"},
   {title:"ITN Productions",category:"Editor / Archive series",description:"Editor of This Week in History, a 52-episode series for the Now 80s TV channel, cut from ITN’s 1980s news archive.",vimeoId:"",vimeoHash:"",image:"images/itn-tile.jpg",imageAlt:"Now 80s This Week in History title card over a New Year crowd",link:"itn.html"},
-  {title:"Independent Projects",category:"Spec advert / Event film",description:"A spec advert for breaking’s Olympic debut that won me a place on BBC Creative’s advertising masterclass, plus an awards-night film for Food and Travel magazine.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2214161776-8186fbbb210eea6ea86306dfaf2aec442f34ac78f642c287f6f330e128069464-d_1280",imageAlt:"Still from the Breaking spec advert: For a New Generation",link:"indie.html"}
+  {title:"Independent Projects",category:"Editor / Spec advert & event film",description:"My edit of a spec advert for breaking’s Olympic debut won me a place on BBC Creative’s advertising masterclass. Plus an awards-night film for Food and Travel magazine.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2214161776-8186fbbb210eea6ea86306dfaf2aec442f34ac78f642c287f6f330e128069464-d_1280",imageAlt:"Still from the Breaking spec advert: For a New Generation",link:"indie.html"}
 ];
 
 // Archive items appear on archive.html. Only add videos you have permission to publish.
@@ -193,18 +193,18 @@ const PAGES = {
     next: {title:"SOAS", link:"soas.html"}
   },
   indie: {
-    kicker: "INDEPENDENT / SPEC & EVENT WORK",
+    kicker: "INDEPENDENT / EDITOR",
     title: "Independent",
-    intro: "Work outside my regular clients: a spec advert that won me a place on BBC Creative’s advertising masterclass, and an awards-night film for Food and Travel magazine.",
-    tags: ["Concept","Advertising","Editing","Event films"],
+    intro: "Edits outside my regular clients: a spec advert whose edit won me a place on BBC Creative’s advertising masterclass, and an awards-night film for Food and Travel magazine.",
+    tags: ["Editing","Advertising","Event films"],
     highlight: {label:"BBC CREATIVE / 2024", text:"Place on the advertising masterclass"},
     videoSections: [
       {title:"Breaking", label:"01 / SPEC ADVERT, 2024",
-       intro:"A 34-second spec advert celebrating breaking’s debut as an Olympic sport at Paris 2024. It won me a place on BBC Creative’s 12-week advertising masterclass, run by the BBC’s in-house creative agency.",
-       videos:[{title:"Breaking: For a New Generation", vimeoId:"1237407373", wide:true, note:"Spec advert · 0:34"}]},
+       intro:"I edited this 34-second spec advert celebrating breaking’s debut as an Olympic sport at Paris 2024. It won me a place on BBC Creative’s 12-week advertising masterclass, run by the BBC’s in-house creative agency.",
+       videos:[{title:"Breaking: For a New Generation", vimeoId:"1237407373", wide:true, note:"Spec advert · editor · 0:34"}]},
       {title:"Food and Travel Awards", label:"02 / EVENT FILM, 2025",
-       intro:"A film of the 2025 Food and Travel Reader Awards, Food and Travel magazine’s gala dinner at the Royal Automobile Club on Pall Mall.",
-       videos:[{title:"Food and Travel Awards 2025", vimeoId:"1197173997", wide:true, note:"Event film · 2:49"}]}
+       intro:"I edited the film of the 2025 Food and Travel Reader Awards, Food and Travel magazine’s gala dinner at the Royal Automobile Club on Pall Mall.",
+       videos:[{title:"Food and Travel Awards 2025", vimeoId:"1197173997", wide:true, note:"Event film · editor · 2:49"}]}
     ],
     next: {title:"Dish", link:"dish.html"}
   }
