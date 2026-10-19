@@ -81,8 +81,22 @@ const PAGES = {
       {id:"DWCD2iqDPFu", caption:"AI warfare and the Global South", stats:"272 likes · 6 comments"},
       {id:"DPT7txTjPuy", caption:"Ghost of Yōtei: history meets fiction", stats:"265 likes · 6 comments"}
     ],
+    moreReels: [{
+      title: "Meet the Academics",
+      label: "03 / INSTAGRAM REELS",
+      intro: "Relaxed, personality-led conversations that introduce the people behind the research: their passions, favourite films and books, and the quotes they live by. These seven reels have drawn more than 44,000 likes.",
+      reels: [
+        {id:"DPogkGIDBMu", caption:"Lindiwe Dovey: “You are what you watch”", stats:"41K likes · 29 comments"},
+        {id:"C5BNhcqtmlP", caption:"Paul Giladi on philosophy, and why being woke is a good thing", stats:"810 likes · 13 comments"},
+        {id:"C71swNviCrP", caption:"Satona Suzuki on Studio Ghibli, anime and East Asian novels", stats:"635 likes · 8 comments"},
+        {id:"DUla3dljGfE", caption:"Yuiko Asaba on decolonising music, plus a violin performance", stats:"610 likes · 3 comments"},
+        {id:"DAqmbg8K_xZ", caption:"Naresh Sharma on Bollywood and learning languages", stats:"456 likes · 7 comments"},
+        {id:"DNqTCQ0sw85", caption:"Kingsley Ugwuanyi and the OED’s new Nigerian English words", stats:"426 likes · 7 comments"},
+        {id:"DHI1c45N37Q", caption:"Naomi Hossain on the moral economy and Bangladesh", stats:"327 likes · 22 comments"}
+      ]
+    }],
     longformTitle: "Global Developments",
-    longformLabel: "03 / PODCAST",
+    longformLabel: "04 / PODCAST",
     longformIntro: "Long-form conversations from the SOAS Global Developments podcast, with end-to-end production and post-production.",
     episodes: [
       {title:"Work in the Age of Digital Capitalism", youtubeId:"lCvfH1fsnVU", note:"End-to-end production and post-production."},
