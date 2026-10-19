@@ -12,7 +12,7 @@ const PROJECTS = [
   {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg?v=2",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
   {title:"SOAS",category:"Video lead / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg?v=2",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
   {title:"Royal College of Art",category:"Freelance editor / Showreels",description:"Yearly showreels and trailers for the MA Interior Design’s superFUTURES and superMATTER studios, crafted from student-submitted films.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2163434321-71fa1db0e9292322230020bc87413249694510016a0b05518e2003392d773f4a-d_1280",imageAlt:"Still from the superFUTURES Nature’s Depot showreel",link:"rca.html"},
-  {title:"ITN Productions",category:"Editor / Archive series",description:"Editor of This Week in History, a 52-episode series for the Now 80s TV channel, built from ITN’s 1980s news archive.",vimeoId:"",vimeoHash:"",image:"images/itn-tile.jpg",imageAlt:"Now 80s This Week in History title card over a New Year crowd",linklink:"itn.html"},
+  {title:"ITN Productions",category:"Editor / Archive series",description:"Editor of This Week in History, a 52-episode series for the Now 80s TV channel, cut from ITN’s 1980s news archive.",vimeoId:"",vimeoHash:"",image:"images/itn-tile.jpg",imageAlt:"Now 80s This Week in History title card over a New Year crowd",linklink:"itn.html"},
   {title:"Events & Highlights",category:"Production / Editing",description:"Capturing the atmosphere and stories of live events in energetic highlight films.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Event project thumbnail",link:""},
   {title:"Independent Projects",category:"Production / Post-production",description:"Selected podcast, commercial and independent production work.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Independent project thumbnail",link:""}
 ];
@@ -126,20 +126,27 @@ const PAGES = {
   itn: {
     kicker: "ITN PRODUCTIONS / EDITOR",
     title: "ITN",
-    intro: "For ITN Productions, I edited This Week in History, a 52-episode series made for the Now 80s TV channel. Each short episode dives into ITN’s news archive to revisit what happened that week in the 1980s, from New Year in Trafalgar Square to the first ‘pocket’ mobile phones, and cuts it into a quick, nostalgic burst between the music videos.",
+    intro: "In December 2021, I edited This Week in History for ITN Productions: a 52-episode series made for the Now 80s TV channel’s 2022 schedule. Each episode dives into ITN’s news archive to revisit what happened that week in the 1980s, from New Year in Trafalgar Square to the first ‘pocket’ mobile phones, cut into a quick, nostalgic burst of under a minute, designed to sit between the music videos.",
     tags: ["Editor","Archive footage","Short-form series","Broadcast","Channel branding"],
     award: {
       title: "The series",
       label: "01 / NOW 80s",
-      stats: [["52","episodes"],["1980s","ITN news archive"],["Weekly","on Now 80s"]]
+      stats: [["52","episodes"],["1980s","ITN news archive"],["<1 min","per episode"]]
     },
-    stillsTitle: "Episode 1",
-    stillsLabel: "02 / JANUARY 3RD",
-    stillsIntro: "Three stories from the first episode, each tagged with the channel’s on-screen captions.",
-    stills: [
-      {src:"images/itn-still-1.jpg", caption:"The world celebrates New Year’s Day, January 1988"},
-      {src:"images/itn-still-2.jpg", caption:"Starlight Express opens in London, January 1984"},
-      {src:"images/itn-still-3.jpg", caption:"Mobile ‘pocket’ phones introduced, January 1985"}
+    videoSections: [
+      {title:"Episodes", label:"02 / JANUARY–FEBRUARY 2022", cols:3,
+       intro:"The first nine weeks of the series.",
+       videos:[
+        {title:"Episode 1", vimeoId:"1237400400", ratio:"5/4", note:"Week of 3 January · 0:53"},
+        {title:"Episode 2", vimeoId:"1237400402", ratio:"5/4", note:"Week of 10 January · 0:48"},
+        {title:"Episode 3", vimeoId:"1237400403", ratio:"5/4", note:"Week of 17 January · 0:52"},
+        {title:"Episode 4", vimeoId:"1237400401", ratio:"5/4", note:"Week of 24 January · 0:50"},
+        {title:"Episode 5", vimeoId:"1237400857", ratio:"5/4", note:"Week of 31 January · 0:49"},
+        {title:"Episode 6", vimeoId:"1237400889", ratio:"5/4", note:"Week of 7 February · 0:49"},
+        {title:"Episode 7", vimeoId:"1237400888", ratio:"5/4", note:"Week of 14 February · 0:42"},
+        {title:"Episode 8", vimeoId:"1237400892", ratio:"5/4", note:"Week of 21 February · 0:55"},
+        {title:"Episode 9", vimeoId:"1237401417", ratio:"5/4", note:"Week of 28 February · 0:51"}
+       ]}
     ],
     next: {title:"Dish", link:"dish.html"}
   }
