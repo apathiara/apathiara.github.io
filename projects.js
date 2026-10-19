@@ -10,6 +10,7 @@ const SITE = {
 };
 const PROJECTS = [
   {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg?v=2",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
+  {title:"BBC",category:"Radio 1 & Radio 2 / Festival socials",description:"Social video for Radio 1 and Radio 2’s 2025 festival season, from Big Weekend and Glastonbury to Reading & Leeds and Radio 2 in the Park.",vimeoId:"",vimeoHash:"",image:"",strip:["https://i.vimeocdn.com/video/2163439675-97eaf1964a440a5001a22f7a4932685c830ee0dc79a5fc38512b85282fb57e56-d_640", "https://i.vimeocdn.com/video/2163440198-adee663502165f76fc638ef92b42e5de8d30bc22525debd9e6b7d655e2eee294-d_640", "https://i.vimeocdn.com/video/2163438359-c204ab060c8d83c8fd484b331a4ccfe75bdfa0ad5ad25fdf1f415e613a7d6f29-d_640", "https://i.vimeocdn.com/video/2163439521-2052ab244e9e533448d155b473f55cbc289112bb41e602cab834561b16658b4b-d_640", "https://i.vimeocdn.com/video/2163440418-28cdd198da8c40a2b3369ac5084233e5c7b5948c974d67d264b76ddb70adff86-d_640"],imageAlt:"Stills from BBC Radio 1 and Radio 2 festival social videos",link:"bbc.html"},
   {title:"SOAS",category:"Video lead / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg?v=2",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
   {title:"Royal College of Art",category:"Freelance editor / Showreels",description:"Yearly showreels and trailers for the MA Interior Design’s superFUTURES and superMATTER studios, crafted from student-submitted films.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2163434321-71fa1db0e9292322230020bc87413249694510016a0b05518e2003392d773f4a-d_1280",imageAlt:"Still from the superFUTURES Nature’s Depot showreel",link:"rca.html"},
   {title:"ITN Productions",category:"Editor / Archive series",description:"Editor of This Week in History, a 52-episode series for the Now 80s TV channel, cut from ITN’s 1980s news archive.",vimeoId:"",vimeoHash:"",image:"images/itn-tile.jpg",imageAlt:"Now 80s This Week in History title card over a New Year crowd",linklink:"itn.html"},
@@ -52,7 +53,7 @@ const PAGES = {
       {title:"Angela Scanlon’s “Filthy” Air Fryer Habit", youtubeId:"hFobYZPAJ6U", note:"Full episode edit."},
       {title:"Jesse Burgess Talks Michelin Stars Over Lemon Chicken", youtubeId:"81fr6vwHXIA", note:"Full episode edit."}
     ],
-    next: {title:"SOAS", link:"soas.html"}
+    next: {title:"BBC", link:"bbc.html"}
   },
   soas: {
     kicker: "SOAS UNIVERSITY OF LONDON / VIDEO LEAD",
@@ -149,5 +150,36 @@ const PAGES = {
        ]}
     ],
     next: {title:"Dish", link:"dish.html"}
+  },
+  bbc: {
+    kicker: "BBC RADIO 1 & RADIO 2 / FESTIVAL SOCIALS",
+    title: "BBC",
+    intro: "In 2025, I worked across BBC Radio 1 and Radio 2’s festival coverage, cutting social video for both stations at Radio 1’s Big Weekend in Liverpool, Glastonbury, Reading & Leeds and Radio 2 in the Park, plus Crossed Wires, the live podcast festival in Sheffield. The work ranged from fast-turnaround daily round-ups to best-of reels, backstage moments built for the feed, and a bespoke edit requested by Lola Young’s team.",
+    tags: ["Social video","Fast turnaround","Live events","Instagram & YouTube","Artist & talent content"],
+    award: {
+      title: "The season",
+      label: "01 / SUMMER 2025",
+      stats: [["5","festivals"],["2","national stations"],["Daily","round-ups"]]
+    },
+    videoSections: [
+      {title:"Festival socials", label:"02 / RADIO 1 & RADIO 2", cols:4,
+       intro:"Cut for Radio 1 and Radio 2’s Instagram and YouTube, in festival order.",
+       videos:[
+        {title:"Big Weekend 2025: Highlights", vimeoId:"1197165684", ratio:"9/16", note:"Radio 1’s Big Weekend · 1:17"},
+        {title:"Greg James and Ed Sheeran", vimeoId:"1197165756", ratio:"9/16", note:"Backstage at Big Weekend · 1:03"},
+        {title:"Lola Young: One Thing", vimeoId:"1197165687", ratio:"9/16", note:"Bespoke edit for Lola Young’s team · 0:27"},
+        {title:"Glastonbury 2025: Best Bits", vimeoId:"1197165875", ratio:"9/16", note:"Radio 1 at Glastonbury · 1:14"},
+        {title:"Reading & Leeds: Friday", vimeoId:"1197165471", ratio:"9/16", note:"Daily round-up · 0:56"},
+        {title:"Reading & Leeds: Saturday", vimeoId:"1197165441", ratio:"9/16", note:"Daily round-up · 0:59"},
+        {title:"Reading & Leeds: Sunday", vimeoId:"1197165454", ratio:"9/16", note:"Daily round-up · 0:51"},
+        {title:"Radio 2 in the Park 2025", vimeoId:"1197167303", ratio:"9/16", note:"Highlights reel · 0:57"}
+       ]},
+      {title:"Crossed Wires", label:"03 / BBC SOUNDS", 
+       intro:"A sizzle reel for the live podcast festival BBC Sounds partners with, featuring some of the best talent from the BBC’s podcasts.",
+       videos:[
+        {title:"Crossed Wires Festival: Sizzle Reel", vimeoId:"1197167738", wide:true, note:"Sizzle reel · 1:02"}
+       ]}
+    ],
+    next: {title:"SOAS", link:"soas.html"}
   }
 };
