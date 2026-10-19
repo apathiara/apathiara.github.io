@@ -19,3 +19,8 @@
 .judges-quote{margin:0;max-width:900px}.judges-quote p{font:800 clamp(24px,3vw,40px)/1.25 Manrope,sans-serif;letter-spacing:-.04em;margin:0 0 18px}.judges-quote cite{font-style:normal;font-size:13px;color:var(--muted)}.judges-quote cite a{color:var(--accent)}
 .award-stats{display:flex;flex-wrap:wrap;gap:10px 26px;margin:18px 0}.award-stats span{color:var(--muted);font-size:14px}.award-stats strong{color:var(--fg);font:800 22px Manrope,sans-serif;letter-spacing:-.04em;margin-right:5px}.award-quote{margin:4px 0 14px;font:700 19px/1.4 Manrope,sans-serif;letter-spacing:-.02em}.award-quote cite{display:block;font:400 12px "DM Sans",sans-serif;color:var(--muted);margin-top:8px;font-style:normal}.award .award-quote{border:0;padding:0}
 @media(max-width:700px){.stat-row{grid-template-columns:1fr;gap:26px}}
+
+.nav-bar{position:sticky;top:0;z-index:30;background:rgba(213,250,102,.7);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2)}
+.nav-bar .nav{height:84px}.nav-bar nav a{color:#111;font-weight:600}.nav-bar nav a:hover,.nav-bar nav a[aria-current]{color:#111;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
+.nav-bar a:focus-visible{outline-color:#111}html{scroll-padding-top:100px}
+@media(max-width:700px){.nav-bar .nav{height:68px}html{scroll-padding-top:80px}}
