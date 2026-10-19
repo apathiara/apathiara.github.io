@@ -9,7 +9,7 @@ const SITE = {
   linkedinUrl: "https://www.linkedin.com/in/aman-pathiara"
 };
 const PROJECTS = [
-  {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"https://i.ytimg.com/vi/hFobYZPAJ6U/maxresdefault.jpg",imageAlt:"Angela Scanlon laughing on the set of the Dish podcast",link:"dish.html"},
+  {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
   {title:"SOAS",category:"Creative strategy / Social",description:"Making academic expertise accessible through entertaining, audience-led digital storytelling.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"SOAS project thumbnail",link:""},
   {title:"Events & Highlights",category:"Production / Editing",description:"Capturing the atmosphere and stories of live events in energetic highlight films.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Event project thumbnail",link:""},
   {title:"Independent Projects",category:"Production / Post-production",description:"Selected podcast, commercial and independent production work.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Independent project thumbnail",link:""}
