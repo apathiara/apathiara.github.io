@@ -10,7 +10,7 @@ const SITE = {
 };
 const PROJECTS = [
   {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
-  {title:"SOAS",category:"Creator & producer / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
+  {title:"SOAS",category:"Video lead / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
   {title:"Events & Highlights",category:"Production / Editing",description:"Capturing the atmosphere and stories of live events in energetic highlight films.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Event project thumbnail",link:""},
   {title:"Independent Projects",category:"Production / Post-production",description:"Selected podcast, commercial and independent production work.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Independent project thumbnail",link:""}
 ];
@@ -53,9 +53,9 @@ const PAGES = {
     next: {title:"SOAS", link:"soas.html"}
   },
   soas: {
-    kicker: "SOAS UNIVERSITY OF LONDON / CREATOR & PRODUCER",
+    kicker: "SOAS UNIVERSITY OF LONDON / VIDEO LEAD",
     title: "SOAS",
-    intro: "I made SOAS Explains and Meet the Academics from start to finish: approaching academics and shaping each idea with them, scripting, filming, editing and publishing to social. The series puts a SOAS expert on whatever the internet is talking about, from The White Lotus to Labubus, and won Gold for Most Effective Use of Social Media at the HEIST Awards 2026.",
+    intro: "As Senior Digital Marketing Officer and Video Lead at SOAS University of London, I made SOAS Explains and Meet the Academics from start to finish: approaching academics and shaping each idea with them, scripting, filming, editing and publishing to social. The series puts a SOAS expert on whatever the internet is talking about, from The White Lotus to Labubus, and won Gold for Most Effective Use of Social Media at the HEIST Awards 2026.",
     tags: ["Concept & ideation","Talent liaison","Scripting","Filming","Editing","Social publishing"],
     highlight: {label:"★ GOLD / HEIST AWARDS 2026", text:"Most Effective Use of Social Media", link:"https://www.heistawards.com/2026winners.html"},
     award: {
