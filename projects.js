@@ -10,7 +10,7 @@ const SITE = {
 };
 const PROJECTS = [
   {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
-  {title:"SOAS",category:"Creative strategy / Social",description:"Making academic expertise accessible through entertaining, audience-led digital storytelling.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg",imageAlt:"Five SOAS academics from the Meet the Academics series",link:""},
+  {title:"SOAS",category:"Social video / Podcast production",description:"Award-winning social video that makes academic expertise entertaining, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
   {title:"Events & Highlights",category:"Production / Editing",description:"Capturing the atmosphere and stories of live events in energetic highlight films.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Event project thumbnail",link:""},
   {title:"Independent Projects",category:"Production / Post-production",description:"Selected podcast, commercial and independent production work.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Independent project thumbnail",link:""}
 ];
@@ -24,11 +24,8 @@ const ARCHIVE = [
 ];
 const ARCHIVE_CATEGORIES = ["All","Long-form","Social","Production","Events","Other"];
 
-// Four supplied YouTube podcast links. Descriptive titles/roles can be added after review.
-const PODCASTS = [
- {title:"SOAS Global Developments — Work in the Age of Digital Capitalism",category:"SOAS Global Developments",description:"End-to-end production and post-production.",youtubeId:"lCvfH1fsnVU",image:""},
- {title:"SOAS Global Developments — Oil Frontiers: A Conversation with Adam Hanieh",category:"SOAS Global Developments",description:"End-to-end production and post-production.",youtubeId:"tZ2FFXrvwXY",image:""}
-];
+// Homepage Podcasts section (hidden automatically when empty). Episodes now live on each project page.
+const PODCASTS = [];
 
 // Project pages (e.g. dish.html). Each page reads its entry by the data-project name on <main>.
 // episodes: YouTube IDs (the part after watch?v=). reels: Instagram post IDs (the part after /p/).
@@ -53,6 +50,35 @@ const PAGES = {
       {title:"Angela Scanlon’s “Filthy” Air Fryer Habit", youtubeId:"hFobYZPAJ6U", note:"Full episode edit."},
       {title:"Jesse Burgess Talks Michelin Stars Over Lemon Chicken", youtubeId:"81fr6vwHXIA", note:"Full episode edit."}
     ],
-    next: {title:"SOAS", link:"index.html#work"}
+    next: {title:"SOAS", link:"soas.html"}
+  },
+  soas: {
+    kicker: "SOAS UNIVERSITY OF LONDON / SOCIAL VIDEO",
+    title: "SOAS",
+    intro: "At SOAS University of London, I help turn academic expertise into social video people actually want to watch. SOAS Explains puts a SOAS academic on whatever the internet is talking about, from The White Lotus to Labubus, and the wider campaign won Gold for Most Effective Use of Social Media at the HEIST Awards 2026.",
+    tags: ["Social video","Creative strategy","Short-form explainers","Podcast production","Post-production"],
+    highlight: {label:"★ GOLD / HEIST AWARDS 2026", text:"Most Effective Use of Social Media", link:"https://www.heistawards.com/2026winners.html"},
+    socialTitle: "SOAS Explains",
+    socialLabel: "01 / INSTAGRAM REELS",
+    socialIntro: "Short explainers that pair a SOAS expert with a trending story. These nine reels have drawn more than 81,000 likes.",
+    reels: [
+      {id:"DRwjbjFDFo4", caption:"Why Paris Paloma’s “Labour” became a feminist anthem", stats:"47K likes · 33 comments"},
+      {id:"DH8OAMXNLOP", caption:"The White Lotus and its South East Asian setting", stats:"24K likes · 21 comments"},
+      {id:"DU-exipDENv", caption:"The racist history of the word ‘voodoo’", stats:"5K likes · 29 comments"},
+      {id:"DOa3RtQDIyg", caption:"Why Ed Sheeran’s “Azizam” resonated with Iranians", stats:"2.6K likes · 19 comments"},
+      {id:"DQ7FXnsDC1h", caption:"Is Minecraft a colonial fantasy?", stats:"935 likes · 39 comments"},
+      {id:"DMsfs-4oG6c", caption:"Squid Game as a mirror to capitalism", stats:"870 likes · 11 comments"},
+      {id:"DTP1Y5TDBto", caption:"What was behind the Labubu hype?", stats:"399 likes · 4 comments"},
+      {id:"DWCD2iqDPFu", caption:"AI warfare and the Global South", stats:"272 likes · 6 comments"},
+      {id:"DPT7txTjPuy", caption:"Ghost of Yōtei: history meets fiction", stats:"265 likes · 6 comments"}
+    ],
+    longformTitle: "Global Developments",
+    longformLabel: "02 / PODCAST",
+    longformIntro: "Long-form conversations from the SOAS Global Developments podcast, with end-to-end production and post-production.",
+    episodes: [
+      {title:"Work in the Age of Digital Capitalism", youtubeId:"lCvfH1fsnVU", note:"End-to-end production and post-production."},
+      {title:"Oil Frontiers: A Conversation with Adam Hanieh", youtubeId:"tZ2FFXrvwXY", note:"End-to-end production and post-production."}
+    ],
+    next: {title:"Dish", link:"dish.html"}
   }
 };
