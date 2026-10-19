@@ -25,3 +25,4 @@
 .nav-bar a:focus-visible{outline-color:#111}html{scroll-padding-top:100px}
 @media(max-width:700px){.nav-bar .nav{height:68px}html{scroll-padding-top:80px}}
 .project-grid .wide-card{grid-column:1/-1}
+.stills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.still{margin:0}.still img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#20211f}.still figcaption{margin-top:12px;font-size:13px;color:var(--muted);line-height:1.5}@media(max-width:700px){.stills-grid{grid-template-columns:1fr}}
