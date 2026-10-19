@@ -58,8 +58,17 @@ const PAGES = {
     intro: "At SOAS University of London, I help turn academic expertise into social video people actually want to watch. SOAS Explains puts a SOAS academic on whatever the internet is talking about, from The White Lotus to Labubus, and the wider campaign won Gold for Most Effective Use of Social Media at the HEIST Awards 2026.",
     tags: ["Social video","Creative strategy","Short-form explainers","Podcast production","Post-production"],
     highlight: {label:"★ GOLD / HEIST AWARDS 2026", text:"Most Effective Use of Social Media", link:"https://www.heistawards.com/2026winners.html"},
+    award: {
+      title: "The campaign",
+      label: "01 / HEIST AWARDS 2026",
+      intro: "With no paid media and a £10k budget, SOAS Explains and Meet the Academics repositioned SOAS as ‘The World’s University’ through short-form social video, raising traffic to study pages and strengthening its reputation with prospective students.",
+      stats: [["1M+","organic views"],["£10k","total budget"],["£0","paid media"]],
+      quote: "An outstanding example of social media done exceptionally well… creating genuine thumb-stopping content while delivering impressive results.",
+      source: "HEIST Awards 2026 judges",
+      link: "https://www.heistawards.com/2026winners.html"
+    },
     socialTitle: "SOAS Explains",
-    socialLabel: "01 / INSTAGRAM REELS",
+    socialLabel: "02 / INSTAGRAM REELS",
     socialIntro: "Short explainers that pair a SOAS expert with a trending story. These nine reels have drawn more than 81,000 likes.",
     reels: [
       {id:"DRwjbjFDFo4", caption:"Why Paris Paloma’s “Labour” became a feminist anthem", stats:"47K likes · 33 comments"},
@@ -73,7 +82,7 @@ const PAGES = {
       {id:"DPT7txTjPuy", caption:"Ghost of Yōtei: history meets fiction", stats:"265 likes · 6 comments"}
     ],
     longformTitle: "Global Developments",
-    longformLabel: "02 / PODCAST",
+    longformLabel: "03 / PODCAST",
     longformIntro: "Long-form conversations from the SOAS Global Developments podcast, with end-to-end production and post-production.",
     episodes: [
       {title:"Work in the Age of Digital Capitalism", youtubeId:"lCvfH1fsnVU", note:"End-to-end production and post-production."},
