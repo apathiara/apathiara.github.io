@@ -9,7 +9,7 @@ const SITE = {
   linkedinUrl: "https://www.linkedin.com/in/aman-pathiara"
 };
 const PROJECTS = [
-  {title:"Dish",category:"Long-form / Social / Editing",description:"Long-form episodes, trailers and social-first edits for the Waitrose entertainment podcast.",vimeoId:"",vimeoHash:"",image:"https://i.ytimg.com/vi/hFobYZPAJ6U/maxresdefault.jpg",imageAlt:"Angela Scanlon laughing on the set of the Dish podcast",link:"dish.html"},
+  {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"https://i.ytimg.com/vi/hFobYZPAJ6U/maxresdefault.jpg",imageAlt:"Angela Scanlon laughing on the set of the Dish podcast",link:"dish.html"},
   {title:"SOAS",category:"Creative strategy / Social",description:"Making academic expertise accessible through entertaining, audience-led digital storytelling.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"SOAS project thumbnail",link:""},
   {title:"Events & Highlights",category:"Production / Editing",description:"Capturing the atmosphere and stories of live events in energetic highlight films.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Event project thumbnail",link:""},
   {title:"Independent Projects",category:"Production / Post-production",description:"Selected podcast, commercial and independent production work.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Independent project thumbnail",link:""}
@@ -34,22 +34,24 @@ const PODCASTS = [
 // episodes: YouTube IDs (the part after watch?v=). reels: Instagram post IDs (the part after /p/).
 const PAGES = {
   dish: {
-    kicker: "WAITROSE / ENTERTAINMENT PODCAST",
+    kicker: "WAITROSE / LEAD SOCIAL EDITOR",
     title: "Dish",
-    intro: "Dish from Waitrose is the food-and-chat podcast where Nick Grimshaw and Angela Hartnett cook for a different guest each week. I edit across the show, from full multicamera episodes for YouTube to the short, social-first cuts that carry it on Instagram.",
-    tags: ["Long-form editing","Multicamera","Social-first cutdowns","Instagram Reels"],
+    intro: "I’m the lead social editor on Dish from Waitrose, the food-and-chat podcast where Nick Grimshaw and Angela Hartnett cook for a famous guest each week. I cut the reels you see on the show’s Instagram: finding the moment in an hour of conversation and shaping it into something people stop for, share and follow back to the full episode. When the show needs it, I take on long-form too.",
+    tags: ["Lead social editor","Instagram Reels","Short-form storytelling","Long-form episodes","Multicamera"],
+    socialIntro: "Character-led, recipe-driven moments cut for the feed. These seven reels alone have drawn more than 176,000 likes.",
+    reels: [
+      {id:"DePNOdDJC1f", caption:"The smash cheeseburger that left Andrew Garfield reeling", stats:"110K likes · 746 comments"},
+      {id:"DdrKCJVIDm3", caption:"A Bake Off-worthy recipe for Alison Hammond and Noel Fielding", stats:"9.1K likes · 55 comments"},
+      {id:"DZuNCcbttkf", caption:"Our tribute to Kevin McCloud and Grand Designs", stats:"5.8K likes · 105 comments"},
+      {id:"DcQY_8hIClK", caption:"Ray Winstone picks his favourite posh nosh", stats:"17K likes · 165 comments"},
+      {id:"DbaUaGyBVlW", caption:"Tom Holland makes meringues", stats:"19K likes · 32 comments"},
+      {id:"DZhMHiOI256", caption:"Marcus Mumford plays UK vs USA", stats:"9.2K likes · 44 comments"},
+      {id:"DZSfc-0I6JJ", caption:"Emilia Clarke’s love letter to tahini", stats:"6K likes · 24 comments"}
+    ],
+    longformIntro: "Alongside the socials, I step in to cut full multicamera episodes for YouTube and podcast platforms, covering for the show’s lead long-form editor.",
     episodes: [
       {title:"Angela Scanlon’s “Filthy” Air Fryer Habit", youtubeId:"hFobYZPAJ6U", note:"Full episode edit."},
       {title:"Jesse Burgess Talks Michelin Stars Over Lemon Chicken", youtubeId:"81fr6vwHXIA", note:"Full episode edit."}
-    ],
-    reels: [
-      {id:"DePNOdDJC1f", caption:"Andrew Garfield’s smashburger"},
-      {id:"DdrKCJVIDm3", caption:"One-tin butter chicken"},
-      {id:"DcQY_8hIClK", caption:"Ray Winstone on caviar"},
-      {id:"DbaUaGyBVlW", caption:"Tom Holland’s pavlova"},
-      {id:"DZuNCcbttkf", caption:"Kevin McCloud: architecture and food"},
-      {id:"DZhMHiOI256", caption:"Dual citizen, dual taste"},
-      {id:"DZSfc-0I6JJ", caption:"Emilia Clarke loves tahini"}
     ],
     next: {title:"SOAS", link:"index.html#work"}
   }
