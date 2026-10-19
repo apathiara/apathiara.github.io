@@ -9,7 +9,7 @@ const SITE = {
   linkedinUrl: "https://www.linkedin.com/in/aman-pathiara"
 };
 const PROJECTS = [
-  {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg?v=2",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
+  {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the British Podcast Awards 2026 Gold winner, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg?v=2",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
   {title:"BBC",category:"Radio 1 & Radio 2 / Festival socials",description:"Social video for Radio 1 and Radio 2’s 2025 festival season, from Big Weekend and Glastonbury to Reading & Leeds and Radio 2 in the Park.",vimeoId:"",vimeoHash:"",image:"",strip:["https://i.vimeocdn.com/video/2163439675-97eaf1964a440a5001a22f7a4932685c830ee0dc79a5fc38512b85282fb57e56-d_640", "https://i.vimeocdn.com/video/2163440198-adee663502165f76fc638ef92b42e5de8d30bc22525debd9e6b7d655e2eee294-d_640", "https://i.vimeocdn.com/video/2163438359-c204ab060c8d83c8fd484b331a4ccfe75bdfa0ad5ad25fdf1f415e613a7d6f29-d_640", "https://i.vimeocdn.com/video/2163439521-2052ab244e9e533448d155b473f55cbc289112bb41e602cab834561b16658b4b-d_640", "https://i.vimeocdn.com/video/2163440418-28cdd198da8c40a2b3369ac5084233e5c7b5948c974d67d264b76ddb70adff86-d_640"],imageAlt:"Stills from BBC Radio 1 and Radio 2 festival social videos",link:"bbc.html"},
   {title:"SOAS",category:"Video lead / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg?v=2",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
   {title:"Royal College of Art",category:"Freelance editor / Showreels",description:"Yearly showreels and trailers for the MA Interior Design’s superFUTURES and superMATTER studios, crafted from student-submitted films.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2163434321-71fa1db0e9292322230020bc87413249694510016a0b05518e2003392d773f4a-d_1280",imageAlt:"Still from the superFUTURES Nature’s Depot showreel",link:"rca.html"},
@@ -37,6 +37,17 @@ const PAGES = {
     title: "Dish",
     intro: "I’m the lead social editor on Dish from Waitrose, the food-and-chat podcast where Nick Grimshaw and Angela Hartnett cook for a famous guest each week. I cut the reels you see on the show’s Instagram: finding the moment in an hour of conversation and shaping it into something people stop for, share and follow back to the full episode. When the show needs it, I take on long-form too.",
     tags: ["Lead social editor","Instagram Reels","Short-form storytelling","Long-form episodes","Multicamera"],
+    highlight: {label:"★ GOLD / BRITISH PODCAST AWARDS 2026", text:"Spotlight Award, plus Silver for Video Innovation", link:"https://www.britishpodcastawards.com/winners-2026"},
+    award: {
+      title: "Awards",
+      label: "01 / BRITISH PODCAST AWARDS 2026",
+      intro: "In 2026, Dish from Waitrose won three British Podcast Awards, including Silver for Video Innovation, the category closest to the social and video work I lead. Since launching in 2022, the show has passed one billion combined downloads, views and listens.",
+      stats: [["Gold","Spotlight Award"],["Silver","Video Innovation"],["Silver","Interview"]],
+      link: "https://www.britishpodcastawards.com/winners-2026",
+      source: "British Podcast Awards 2026"
+    },
+    socialLabel: "02 / INSTAGRAM REELS",
+    longformLabel: "03 / FULL EPISODES",
     socialIntro: "Character-led, recipe-driven moments cut for the feed. These seven reels alone have drawn more than 176,000 likes.",
     reels: [
       {id:"DePNOdDJC1f", caption:"The smash cheeseburger that left Andrew Garfield reeling", stats:"110K likes · 746 comments"},
