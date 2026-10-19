@@ -11,6 +11,7 @@ const SITE = {
 const PROJECTS = [
   {title:"Dish",category:"Lead social editor / Long-form",description:"Lead social editor on the Waitrose podcast, cutting the reels behind its Instagram, plus full-episode long-form edits.",vimeoId:"",vimeoHash:"",image:"images/dish-tile.jpg?v=2",imageAlt:"Dish hosts Nick Grimshaw and Angela Hartnett with the Dish from Waitrose logo",link:"dish.html"},
   {title:"SOAS",category:"Video lead / Social video",description:"An award-winning video series I made end to end, from idea and script to shoot, edit and social, plus long-form podcast production.",vimeoId:"",vimeoHash:"",image:"images/soas-tile.jpg?v=2",imageAlt:"Five SOAS academics from the Meet the Academics series",link:"soas.html"},
+  {title:"Royal College of Art",category:"Freelance editor / Showreels",description:"Yearly showreels and trailers for the MA Interior Design’s superFUTURES and superMATTER studios, crafted from student-submitted films.",vimeoId:"",vimeoHash:"",image:"https://i.vimeocdn.com/video/2163434321-71fa1db0e9292322230020bc87413249694510016a0b05518e2003392d773f4a-d_1280",imageAlt:"Still from the superFUTURES Nature’s Depot showreel",link:"rca.html"},
   {title:"Events & Highlights",category:"Production / Editing",description:"Capturing the atmosphere and stories of live events in energetic highlight films.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Event project thumbnail",link:""},
   {title:"Independent Projects",category:"Production / Post-production",description:"Selected podcast, commercial and independent production work.",vimeoId:"",vimeoHash:"",image:"",imageAlt:"Independent project thumbnail",link:""}
 ];
@@ -94,6 +95,29 @@ const PAGES = {
     episodes: [
       {title:"Work in the Age of Digital Capitalism", youtubeId:"lCvfH1fsnVU", note:"End-to-end production and post-production."},
       {title:"Oil Frontiers: A Conversation with Adam Hanieh", youtubeId:"tZ2FFXrvwXY", note:"End-to-end production and post-production."}
+    ],
+    next: {title:"Royal College of Art", link:"rca.html"}
+  },
+  rca: {
+    kicker: "ROYAL COLLEGE OF ART / FREELANCE EDITOR",
+    title: "RCA",
+    intro: "Since 2023, I’ve edited the yearly showreels and trailers for the Royal College of Art’s MA Interior Design, working with Gem Barton and Tania López Winkler, who lead its superFUTURES and superMATTER studios. I don’t shoot these: I take the films students submit and craft them into one story, finding the narrative across a whole cohort’s work and shaping it so it moves people.",
+    tags: ["Freelance editor","Narrative editing","Showreels & trailers","Student-submitted footage","Every year since 2023"],
+    videoSections: [
+      {title:"superFUTURES", label:"01 / SPECULATIVE DESIGN",
+       intro:"A studio that uses film to rehearse possible futures for how we live. Each year, a cohort’s worth of near-future worlds becomes a single film.",
+       videos:[
+        {title:"superFUTURES 2026", vimeoId:"1237392290", note:"Annual showreel · 5:04"},
+        {title:"superFUTURES 2024–25: Nature’s Depot", vimeoId:"1197154313", note:"Annual showreel · 3:05"},
+        {title:"superFUTURES 2023–24", vimeoId:"1197154445", note:"Annual showreel · 2:30"},
+        {title:"superFUTURES at the Saatchi Gallery", vimeoId:"1237392325", ratio:"426/130", wide:true, note:"Ultra-wide exhibition cut for the Saatchi Gallery · 1:09"}
+       ]},
+      {title:"superMATTER", label:"02 / MATERIAL & MAKING",
+       intro:"A hands-on studio exploring how materials, craft and making shape space. These films slow down to texture, process and the made thing.",
+       videos:[
+        {title:"superMATTER 2026", vimeoId:"1237392255", note:"Annual showreel · 4:21"},
+        {title:"superMATTER 2025", vimeoId:"1197153847", note:"Annual showreel · 4:13"}
+       ]}
     ],
     next: {title:"Dish", link:"dish.html"}
   }
