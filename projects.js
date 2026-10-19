@@ -69,7 +69,7 @@ const PAGES = {
     },
     socialTitle: "SOAS Explains",
     socialLabel: "02 / INSTAGRAM REELS",
-    socialIntro: "Short explainers that pair a SOAS expert with a trending story. These nine reels have drawn more than 81,000 likes.",
+    socialIntro: "Short explainers that pair a SOAS expert with a trending story. These six reels have drawn more than 80,000 likes.",
     reels: [
       {id:"DRwjbjFDFo4", caption:"Why Paris Paloma’s “Labour” became a feminist anthem", stats:"47K likes · 33 comments"},
       {id:"DH8OAMXNLOP", caption:"The White Lotus and its South East Asian setting", stats:"24K likes · 21 comments"},
@@ -77,22 +77,15 @@ const PAGES = {
       {id:"DOa3RtQDIyg", caption:"Why Ed Sheeran’s “Azizam” resonated with Iranians", stats:"2.6K likes · 19 comments"},
       {id:"DQ7FXnsDC1h", caption:"Is Minecraft a colonial fantasy?", stats:"935 likes · 39 comments"},
       {id:"DMsfs-4oG6c", caption:"Squid Game as a mirror to capitalism", stats:"870 likes · 11 comments"},
-      {id:"DTP1Y5TDBto", caption:"What was behind the Labubu hype?", stats:"399 likes · 4 comments"},
-      {id:"DWCD2iqDPFu", caption:"AI warfare and the Global South", stats:"272 likes · 6 comments"},
-      {id:"DPT7txTjPuy", caption:"Ghost of Yōtei: history meets fiction", stats:"265 likes · 6 comments"}
     ],
     moreReels: [{
       title: "Meet the Academics",
       label: "03 / INSTAGRAM REELS",
-      intro: "Relaxed, personality-led conversations that introduce the people behind the research: their passions, favourite films and books, and the quotes they live by. These seven reels have drawn more than 44,000 likes.",
+      intro: "Relaxed, personality-led conversations that introduce the people behind the research: their passions, favourite films and books, and the quotes they live by. These three reels have drawn more than 42,000 likes.",
       reels: [
         {id:"DPogkGIDBMu", caption:"Lindiwe Dovey: “You are what you watch”", stats:"41K likes · 29 comments"},
-        {id:"C5BNhcqtmlP", caption:"Paul Giladi on philosophy, and why being woke is a good thing", stats:"810 likes · 13 comments"},
         {id:"C71swNviCrP", caption:"Satona Suzuki on Studio Ghibli, anime and East Asian novels", stats:"635 likes · 8 comments"},
-        {id:"DUla3dljGfE", caption:"Yuiko Asaba on decolonising music, plus a violin performance", stats:"610 likes · 3 comments"},
         {id:"DAqmbg8K_xZ", caption:"Naresh Sharma on Bollywood and learning languages", stats:"456 likes · 7 comments"},
-        {id:"DNqTCQ0sw85", caption:"Kingsley Ugwuanyi and the OED’s new Nigerian English words", stats:"426 likes · 7 comments"},
-        {id:"DHI1c45N37Q", caption:"Naomi Hossain on the moral economy and Bangladesh", stats:"327 likes · 22 comments"}
       ]
     }],
     longformTitle: "Global Developments",
