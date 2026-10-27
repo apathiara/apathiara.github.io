@@ -206,10 +206,10 @@ const PAGES = {
        intro:"I edited the film of the 2025 Food and Travel Reader Awards, Food and Travel magazine’s gala dinner at the Royal Automobile Club on Pall Mall.",
        videos:[{title:"Food and Travel Awards 2025", vimeoId:"1197173997", wide:true, note:"Event film · editor · 2:49"}]},
       {title:"Gaming", label:"03 / VIDEO GAMES",
-       intro:"Two gaming videos I made: a review of the indie game GRIS, and my application video for the games media company Triple Jump.",
+       intro:"Two gaming videos I made: a review of the indie game GRIS for Vexoid, a gaming website that ran from 2014 to 2021, and a spec piece for the games media company Triple Jump.",
        videos:[
-        {title:"Vexoid Review: GRIS (Switch)", youtubeId:"Dbw-up7jAnU", note:"Game review"},
-        {title:"Triple Jump application", youtubeId:"aw3GeXIFXkA", note:"Application video"}
+        {title:"Vexoid Review: GRIS (Switch)", youtubeId:"Dbw-up7jAnU", note:"Game review for Vexoid"},
+        {title:"Triple Jump spec piece", youtubeId:"aw3GeXIFXkA", note:"Spec video for Triple Jump"}
        ]}
     ],
     next: {title:"Dish", link:"dish.html"}
