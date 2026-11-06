@@ -58,8 +58,9 @@ const PAGES = {
       {id:"DZhMHiOI256", caption:"Marcus Mumford plays UK vs USA", stats:"9.2K likes · 44 comments"},
       {id:"DZSfc-0I6JJ", caption:"Emilia Clarke’s love letter to tahini", stats:"6K likes · 24 comments"}
     ],
-    longformIntro: "Alongside the socials, I step in to cut full multicamera episodes for YouTube and podcast platforms, covering for the show’s lead long-form editor.",
+    longformIntro: "Alongside the socials, I cut full multicamera episodes for YouTube and podcast platforms, stepping in for the show’s lead long-form editor and taking on episodes I’ve asked to edit, like Riz Ahmed’s.",
     episodes: [
+      {title:"Riz Ahmed Loves Unexpected Flavours", youtubeId:"IrqWehG8W6g", note:"Full episode edit."},
       {title:"Angela Scanlon’s “Filthy” Air Fryer Habit", youtubeId:"hFobYZPAJ6U", note:"Full episode edit."},
       {title:"Jesse Burgess Talks Michelin Stars Over Lemon Chicken", youtubeId:"81fr6vwHXIA", note:"Full episode edit."}
     ],
