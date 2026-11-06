@@ -48,15 +48,15 @@ const PAGES = {
     },
     socialLabel: "02 / INSTAGRAM REELS",
     longformLabel: "03 / FULL EPISODES",
-    socialIntro: "Character-led, recipe-driven moments cut for the feed. These seven reels alone have drawn more than 176,000 likes.",
+    socialIntro: "Character-led, recipe-driven moments cut for the feed, from guest-led hits to playful format pieces like the Bake Off and Grand Designs tributes. These seven reels alone have drawn more than 10.6 million views (as of November 2026).",
     reels: [
-      {id:"DePNOdDJC1f", caption:"The smash cheeseburger that left Andrew Garfield reeling", stats:"110K likes · 746 comments"},
-      {id:"DdrKCJVIDm3", caption:"A Bake Off-worthy recipe for Alison Hammond and Noel Fielding", stats:"9.1K likes · 55 comments"},
-      {id:"DZuNCcbttkf", caption:"Our tribute to Kevin McCloud and Grand Designs", stats:"5.8K likes · 105 comments"},
-      {id:"DcQY_8hIClK", caption:"Ray Winstone picks his favourite posh nosh", stats:"17K likes · 165 comments"},
-      {id:"DbaUaGyBVlW", caption:"Tom Holland makes meringues", stats:"19K likes · 32 comments"},
-      {id:"DZhMHiOI256", caption:"Marcus Mumford plays UK vs USA", stats:"9.2K likes · 44 comments"},
-      {id:"DZSfc-0I6JJ", caption:"Emilia Clarke’s love letter to tahini", stats:"6K likes · 24 comments"}
+      {id:"DePNOdDJC1f", caption:"The smash cheeseburger that left Andrew Garfield reeling", stats:"4.9M views · 145K likes"},
+      {id:"DZR2R6QoYeT", caption:"Emilia Clarke’s love language", stats:"2.4M views · 69.5K likes"},
+      {id:"Dc1FZoUo7hE", caption:"A miso, lime and herb butter spatchcock chicken for Daisy Edgar-Jones", stats:"1.3M views · 37.1K likes"},
+      {id:"DcQY_8hIClK", caption:"Ray Winstone picks his favourite posh nosh", stats:"783K views · 22.7K likes"},
+      {id:"DbaUaGyBVlW", caption:"Tom Holland makes meringues", stats:"646K views · 22.5K likes"},
+      {id:"DdrKCJVIDm3", caption:"A Bake Off-worthy recipe for Alison Hammond and Noel Fielding", stats:"419K views · 12.1K likes"},
+      {id:"DZuNCcbttkf", caption:"Our tribute to Kevin McCloud and Grand Designs", stats:"206K views · 6.9K likes"}
     ],
     longformIntro: "Alongside the socials, I cut full multicamera episodes for YouTube and podcast platforms, stepping in for the show’s lead long-form editor and taking on episodes I’ve asked to edit, like Riz Ahmed’s.",
     episodes: [
